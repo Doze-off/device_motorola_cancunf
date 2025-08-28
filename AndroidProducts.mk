@@ -5,4 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_cancunf.mk
+    $(LOCAL_DIR)/aosp_cancunf.mk \
+    $(LOCAL_DIR)/rising_cancunf.mk
