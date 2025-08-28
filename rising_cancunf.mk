@@ -6,7 +6,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/cancunf/device.mk)
 
 # Inherit some common rising stuff.
+$(call inherit-product, vendor/lineage/config/common.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/BoardConfigSoong.mk)
+$(call inherit-product, vendor/lineage/config/BoardConfigLineage.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := rising_cancunf
